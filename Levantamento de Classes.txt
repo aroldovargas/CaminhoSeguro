@@ -1,0 +1,76 @@
+- Risco
+	- quantidade de crimes
+	- classificação de A até E(Onde A é o mais seguro e E o mais perigoso)
+	- rua classificada
+
+- Resultado da busca
+	- quantidade de crimes ocorridos
+	- lista com a descrição dos crimes ocorridos(sexo, data, horario e tipo)
+	- dados do endereço pesquisada.
+	- mapa localizando a rua pesquisada.
+
+- Usuário
+	- nome
+	- sexo
+	- idade
+	- e-mail
+	- login
+	- senha
+	- cpf
+	
+	
+- Endereço
+	- rua
+	- bairro
+	- cidade
+	- comentarios relacionados ao endereço pesquisado
+	- classificação do endereço pesquisado
+
+- Crime
+	- data
+	- hora
+	- tipo(homicidio, latrocinio, outros)
+	- local
+	- vitima
+
+- Vitima
+	- sexo
+	- idade
+	- endereço
+	- tipo de crime sofrido
+
+- Assinatura
+	- formas de pagamento
+	- identificação do usuario
+	- valor
+	- status do pagamento
+
+- Comentário
+	- cliente
+	- rua
+	- descrição feita pelo cliente
+	- tipo(o usuario pode classificar o comentário ex: reportar um crime, relatar alguma sugestão, problemas de sistema, outros)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
