@@ -1,15 +1,15 @@
 - Risco
 	- quantidade de crimes
-	- classificaÁ„o de A atÈ E(Onde A È o mais seguro e E o mais perigoso)
+	- classifica√ß√£o de A at√© E(Onde A √© o mais seguro e E o mais perigoso)
 	- rua classificada
 
 - Resultado da busca
 	- quantidade de crimes ocorridos
-	- lista com a descriÁ„o dos crimes ocorridos(sexo, data, horario e tipo)
-	- dados do endereÁo pesquisada.
+	- lista com a descri√ß√£o dos crimes ocorridos(sexo, data, horario e tipo)
+	- dados do endere√ßo pesquisada.
 	- mapa localizando a rua pesquisada.
 
-- Usu·rio
+- Usu√°rio (OK)
 	- nome
 	- sexo
 	- idade
@@ -19,14 +19,14 @@
 	- cpf
 	
 	
-- EndereÁo
+- Endere√ßo (OK)
 	- rua
 	- bairro
 	- cidade
-	- comentarios relacionados ao endereÁo pesquisado
-	- classificaÁ„o do endereÁo pesquisado
+	- comentarios relacionados ao endere√ßo pesquisado
+	- classifica√ß√£o do endere√ßo pesquisado
 
-- Crime
+- Crime (OK)
 	- data
 	- hora
 	- tipo(homicidio, latrocinio, outros)
@@ -36,20 +36,20 @@
 - Vitima
 	- sexo
 	- idade
-	- endereÁo
+	- endere√ßo
 	- tipo de crime sofrido
 
 - Assinatura
 	- formas de pagamento
-	- identificaÁ„o do usuario
+	- identifica√ß√£o do usuario
 	- valor
 	- status do pagamento
 
-- Coment·rio
+- Coment√°rio
 	- cliente
 	- rua
-	- descriÁ„o feita pelo cliente
-	- tipo(o usuario pode classificar o coment·rio ex: reportar um crime, relatar alguma sugest„o, problemas de sistema, outros)
+	- descri√ß√£o feita pelo cliente
+	- tipo(o usuario pode classificar o coment√°rio ex: reportar um crime, relatar alguma sugest√£o, problemas de sistema, outros)
 
 
 
