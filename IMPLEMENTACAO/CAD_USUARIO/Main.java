@@ -13,8 +13,7 @@ package cadastrousuario;
       - login
       - senha
       - cpf
- * @author Emanuel medeiros claudino
- * 20171bsi0146
+ * @author Emanuel
  */
 import javax.swing.JOptionPane;
 
@@ -26,23 +25,17 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         int operacao = Integer.parseInt(JOptionPane.showInputDialog("1 - Cadastrar novo usuário\n0 - Sair"));
+        Telas msg = new Telas();
         
         while (operacao != 0){
+      
+            InsercaoDados cadastro = new InsercaoDados();
+            cadastro.dadosUsuario();
             
-            String nome = JOptionPane.showInputDialog("Informe o seu nome: ");
-            String sexo = JOptionPane.showInputDialog("Digite o sexo (M ou F): ");
-            String idade = JOptionPane.showInputDialog("Informe a sua idade: ");
-            String email = JOptionPane.showInputDialog("Informe o e-mail de cadastro: ");
-            String login = JOptionPane.showInputDialog("Cadastre o nome de usuário para login: ");
-            String senha = JOptionPane.showInputDialog("Cadastre a senha para efetuar o login: ");
-            String cpf = JOptionPane.showInputDialog("Informe o seu CPF: ");    
             operacao = Integer.parseInt(JOptionPane.showInputDialog("1 - Cadastrar novo usuário\n0 - Sair"));
-            
-            CadUser Cadastro = new CadUser(nome,sexo,idade,email,login,senha,cpf);
-            GuardarDados salvar_dados = new GuardarDados();
-            salvar_dados.salvarDados(Cadastro);
-    
+
         }
-        JOptionPane.showMessageDialog(null,"Finalizando cadastro(s)");
+        
+        msg.confirmaCadastro();
     }
 }
