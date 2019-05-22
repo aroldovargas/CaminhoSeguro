@@ -1,14 +1,24 @@
 # MAPA DE RISCO - POO1
 
-### COMPONENTES
-> Aroldo de Sá Vargas Neto - aroldovneto@gmail.com<br>
+### 1. COMPONENTES
+> Aroldo Vargas: aroldovneto@gmail.com<br>
 > Harrison <br>
 > Emanuel <br>
 
-### DESCRIÇÃO DO PROJETO:
+### 2. DESCRIÇÃO DO PROJETO:
 
 >A ideia do projeto é traçar uma rota de deslocamento segura para usuário, baseando-se nos índices de criminalidade de uma determinada região. O sistema analisará o horário e o local de menor criminalidade das ruas nas rotas existentes até o destino inserido pelo usuário, e determinará, baseado em dados estatísticos, a melhor rota de deslocamento. Os dados estatísticos serão oriundos da Secretaria de Estado de Segurança Pública e Defesa Social (SESP) e o sistema atuará somente com rotas válidas para a grande Vitória, no estado do Espírito Santo.
 
+### 3. MOCKUPS
+>Protótipo das telas: https://balsamiq.com<br><br>
+![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/menu_inicial.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/pesquisa_rua.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/pesquisa_linha.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/resultado_rua.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/resultado_linha.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/descricao_crimes.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/comentario.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/comentario_enviado.JPG?raw=true "Title")
 
 ### DIÁRIO DE BORDO:
 
@@ -17,3 +27,7 @@
 ### ESTATÍSTICAS CRIMINAIS:
 
 >https://sesp.es.gov.br/estatisticas-criminais-2
+
+### LINK DOS ITINERÁRIOS DAS LINHAS DE ÔNIBUS:
+
+>https://ceturb.es.gov.br/Itinerarios
