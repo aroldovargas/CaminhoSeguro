@@ -8,31 +8,32 @@ package maparisco;
 import javax.swing.JOptionPane;
 
 /**
- *
  * @author Aroldo
  */
+
 public class Endereco {
     public String nomeRua;
     public String nomeBairro;
     public String nomeCidade;
-
+    
+    
+    
     public String toString(){
         
         return "Endereço: " + nomeRua + "," + nomeBairro + "," + nomeCidade;
-        
     }
-    public void getEndereco(){
-        nomeRua = JOptionPane.showInputDialog("Rua:");
-        nomeBairro = JOptionPane.showInputDialog("Bairro:");
-        nomeCidade = JOptionPane.showInputDialog("Cidade:");
-        JOptionPane.showMessageDialog(null,"Endereço: " + nomeRua + ", " + nomeBairro + ", " + nomeCidade);
-    }
-
+  
     public String getNomeRua() {
         return nomeRua;
     }
 
-    public void setNomeRua(String nomeRua) {
+    public void setNomeRua(String nomeRua) throws Exception {
+        
+        if (nomeRua.equalsIgnoreCase(""))
+        {
+            throw new Exception("Nome da rua não pode ser vazio");
+        }
+        
         this.nomeRua = nomeRua;
     }
 
@@ -40,7 +41,11 @@ public class Endereco {
         return nomeBairro;
     }
 
-    public void setNomeBairro(String nomeBairro) {
+    public void setNomeBairro(String nomeBairro) throws Exception{
+        if(nomeBairro.equalsIgnoreCase(""))
+        {
+            throw new Exception("Nome do bairro não pode ser vazio");
+        }
         this.nomeBairro = nomeBairro;
     }
 
@@ -48,7 +53,11 @@ public class Endereco {
         return nomeCidade;
     }
 
-    public void setNomeCidade(String nomeCidade) {
+    public void setNomeCidade(String nomeCidade) throws Exception{
+        if(nomeCidade.equalsIgnoreCase(""))
+        {
+            throw new Exception("Nome da cidade não pode ser vazio");
+        }
         this.nomeCidade = nomeCidade;
     }
 

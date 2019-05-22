@@ -13,9 +13,10 @@ public class Main {
 
     public static void main(String[] args) {
         JOptionPane.showMessageDialog(null, "Insira as informações relacionadas ao endereço que deseja pesquisar:");
-        Endereco endereco = new Endereco();
-        endereco.getEndereco();
         
+        TelaEndereco telaEnd = new TelaEndereco();
+        Endereco endereco = telaEnd.getEndereco();
+   
         PersistenciaArquivo salvar = new PersistenciaArquivo();
         salvar.salvarEndereco(endereco);
     }
