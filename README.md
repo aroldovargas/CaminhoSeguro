@@ -19,6 +19,7 @@
 ![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/descricao_crimes.JPG?raw=true "Title")
 ![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/comentario.JPG?raw=true "Title")
 ![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/comentario_enviado.JPG?raw=true "Title")
+![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/Diagrama_Classes.jpg?raw=true "Title")
 
 ### DIÁRIO DE BORDO:
 
