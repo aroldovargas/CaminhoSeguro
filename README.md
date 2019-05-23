@@ -10,20 +10,18 @@
 >A ideia do projeto é traçar uma rota de deslocamento segura para usuário, baseando-se nos índices de criminalidade de uma determinada região. O sistema analisará o horário e o local de menor criminalidade das ruas nas rotas existentes até o destino inserido pelo usuário, e determinará, baseado em dados estatísticos, a melhor rota de deslocamento. Os dados estatísticos serão oriundos da Secretaria de Estado de Segurança Pública e Defesa Social (SESP) e o sistema atuará somente com rotas válidas no estado do Espírito Santo.
 
 ### 3. MOCKUPS
->Protótipo das telas: https://balsamiq.com<br><br>
 ![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/menu_inicial.JPG?raw=true "Title")
 ![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/pesquisa_rua.JPG?raw=true "Title")
 ![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/resultado_rua.JPG?raw=true "Title")
 ![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/descricao_crimes.JPG?raw=true "Title")
 ![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/comentario.JPG?raw=true "Title")
-![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/comentario_enviado.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/comentario_enviado.JPG?raw=true "Title")<br>
 
 ### 4. CANVAS
+![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/PMC.JPG?raw=true "Title")<br>
 
 ### 5. DIAGRAMA DE CLASSES
-![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/Diagrama_Classes.jpg?raw=true "Title")
-
-
+![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/Diagrama_Classes.jpg?raw=true "Title")<br>
 
 ### DIÁRIO DE BORDO:
 
@@ -36,3 +34,6 @@
 ### LINK DOS ITINERÁRIOS DAS LINHAS DE ÔNIBUS:
 
 >https://ceturb.es.gov.br/Itinerarios
+
+### SOFTWARES UTILIZADOS
+>Protótipo das telas: https://balsamiq.com<br><br>
