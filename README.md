@@ -2,7 +2,7 @@
 
 ### 1. COMPONENTES
 > Aroldo Vargas: aroldovneto@gmail.com<br>
-> Harrison <br>
+> Harrison Sanches: harrison.sanches@gmail.com<br>
 > Emanuel Medeiros: market_live@outlook.com<br>
 
 ### 2. DESCRIÇÃO DO PROJETO:
