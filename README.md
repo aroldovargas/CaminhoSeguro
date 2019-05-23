@@ -11,15 +11,19 @@
 
 ### 3. MOCKUPS
 >Protótipo das telas: https://balsamiq.com<br><br>
-![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/menu_inicial.JPG?raw=true "Title")
-![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/pesquisa_rua.JPG?raw=true "Title")
-![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/pesquisa_linha.JPG?raw=true "Title")
-![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/resultado_rua.JPG?raw=true "Title")
-![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/resultado_linha.JPG?raw=true "Title")
-![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/descricao_crimes.JPG?raw=true "Title")
-![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/comentario.JPG?raw=true "Title")
-![Alt text](https://github.com/BD120192/MAPA-DE-RISCO/blob/master/TELAS/comentario_enviado.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/menu_inicial.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/pesquisa_rua.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/resultado_rua.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/descricao_crimes.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/comentario.JPG?raw=true "Title")
+![Alt text](https://github.com/BD120192/CaminhoSeguro/blob/master/TELAS/comentario_enviado.JPG?raw=true "Title")
+
+### 4. CANVAS
+
+### 5. DIAGRAMA DE CLASSES
 ![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/Diagrama_Classes.jpg?raw=true "Title")
+
+
 
 ### DIÁRIO DE BORDO:
 
