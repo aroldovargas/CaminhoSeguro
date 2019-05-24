@@ -11,6 +11,7 @@
 
 ### 3. CANVAS
 ![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/PMC.JPG?raw=true "Title")<br>
+Link do PMC CANVAS: https://docs.google.com/presentation/d/10oNVltq-7zmk42OlpeALn7IfoLgvUBjoKDu1ruXhLws/edit#slide=id.g501f941407_2_31
 
 ### 4. MOCKUPS - PROTÓTIPO DAS TELAS
 ![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/TELAS/menu_inicial.JPG?raw=true "Title")
@@ -26,7 +27,6 @@
 ### DIÁRIO DE BORDO:
 
 >https://docs.google.com/document/d/11e3X0205oprL_9fXm3Okc50K4vjfuiq8QTe8evD3PT8/edit?usp=sharing
-Link diário de bordo: https://docs.google.com/presentation/d/10oNVltq-7zmk42OlpeALn7IfoLgvUBjoKDu1ruXhLws/edit#slide=id.g501f941407_2_31
 
 ### ESTATÍSTICAS CRIMINAIS:
 
