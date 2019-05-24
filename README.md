@@ -26,6 +26,7 @@
 ### DIÁRIO DE BORDO:
 
 >https://docs.google.com/document/d/11e3X0205oprL_9fXm3Okc50K4vjfuiq8QTe8evD3PT8/edit?usp=sharing
+Link diário de bordo: https://docs.google.com/presentation/d/10oNVltq-7zmk42OlpeALn7IfoLgvUBjoKDu1ruXhLws/edit#slide=id.g501f941407_2_31
 
 ### ESTATÍSTICAS CRIMINAIS:
 
