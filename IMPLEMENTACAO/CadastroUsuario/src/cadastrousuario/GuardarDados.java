@@ -21,11 +21,10 @@ public class GuardarDados {
         try{
             arq = new FileWriter("D:\\IFES\\5° periodo\\POO1\\ExerciciosPOO1-JogoPerguntas\\dados.txt", true);
             PrintWriter gravarArq = new PrintWriter(arq);
-            gravarArq.append("- " +  dados.getNome() + "\r\n" + dados.getSexo() + "\r\n" + dados.getIdade() + "\r\n" + dados.getEmail() + "\r\n" + dados.getLogin() + "\r\n" + dados.getSenha() + "\r\n" + dados.getCpf()+ "\r\n");
+            gravarArq.append("- " +  dados.getId_usuario() + "\r\n" + dados.getNome() + "\r\n" + dados.getSexo() + "\r\n" + dados.getIdade() + "\r\n" + dados.getEmail() + "\r\n" + dados.getLogin() + "\r\n" + dados.getSenha() + "\r\n" + dados.getCpf()+ "\r\n");
             arq.close();
         } catch (IOException ex) {
             Logger.getLogger(GuardarDados.class.getName()).log(Level.SEVERE, null, ex);   
         }
     }     
-    
 }

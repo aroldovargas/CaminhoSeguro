@@ -41,12 +41,12 @@ public class InsercaoDadosTest {
     }
 
     /**
-     * Test of dadosUsuario method, of class InsercaoDados.
+     * Test of dadosUsuario method, of class TelaUsuario.
      */
     @Test
     public void testDadosUsuario() throws Exception {
         System.out.println("dadosUsuario");
-        InsercaoDados instance = new InsercaoDados();
+        TelaUsuario instance = new TelaUsuario();
         
         String nome = "Emanuel";
         String sexo = "M";
@@ -55,7 +55,9 @@ public class InsercaoDadosTest {
         String login = "emanue1223";
         String senha = "emanuel723";
         String cpf = "16106286806";
-        Usuario result = new Usuario(nome,sexo, idade, email, login, senha, cpf);
+        String id = "10";
+        
+        Usuario result = new Usuario(id,nome,sexo, idade, email, login, senha, cpf);
    
         
         try {

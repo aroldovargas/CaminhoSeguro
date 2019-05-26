@@ -13,6 +13,7 @@ import static javafx.beans.binding.Bindings.length;
  */
 public class Usuario {
     
+    private int id_usuario;
     private String nomeUsuario;
     private String sexo;
     private int idade;
@@ -21,7 +22,7 @@ public class Usuario {
     private String senha;
     private long cpf;
     
-    public Usuario(String nome, String sexo, String idade, String email, String login, String senha, String cpf) throws Exception{
+    public Usuario(String id_usuario,String nome, String sexo, String idade, String email, String login, String senha, String cpf) throws Exception{
         
         this.setNome(nome);
  
@@ -36,21 +37,30 @@ public class Usuario {
         this.setSenha(senha);
         
         this.setCpf(cpf);
-        /*
-        this.nomeUsuario = nome;
-        this.sexo = sexo;
-        this.idade = Integer.parseInt(idade);
-        this.email = email;
-        this.login = login;
-        this.senha = senha;
-        this.cpf = Long.parseLong(cpf);
-        */
+
     }
 
     Usuario() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
+    
+    public int getId_usuario() {
+        return id_usuario;
+    }
 
+
+    public void setId_usuario(String id_usuario) throws Exception {
+        
+        if (id_usuario.equalsIgnoreCase("")){
+            throw new Exception("\nId do usuario não pode ser vazio\n");
+        } else if (id_usuario.contains("-")){
+            throw new Exception("\nId inválido\n");
+        } else if (id_usuario.equalsIgnoreCase("0")){
+            throw new Exception("\nValor inválido para Id\n");
+        }
+        
+        this.id_usuario = Integer.parseInt(id_usuario);
+    }
     
     
     public String getNome() {

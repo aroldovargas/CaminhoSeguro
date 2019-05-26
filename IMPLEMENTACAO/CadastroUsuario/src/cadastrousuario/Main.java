@@ -28,7 +28,7 @@ public class Main {
         Telas msg = new Telas();
         
         while (operacao != 0){     
-            InsercaoDados cadastro = new InsercaoDados();
+            TelaUsuario cadastro = new TelaUsuario();
             Usuario nova_conta = cadastro.dadosUsuario();
             GuardarDados salvar_dados = new GuardarDados();
             salvar_dados.salvarDados(nova_conta);  
