@@ -20,7 +20,7 @@ public class GuardarComentario {
         try{
             arq = new FileWriter("D:\\IFES\\5° periodo\\POO1\\ExerciciosPOO1-JogoPerguntas\\comentario.txt", true);
             PrintWriter gravarArq = new PrintWriter(arq);
-            gravarArq.append("- " +  dados.getNome() + "\r\n" + dados.getSexo() + "\r\n" + dados.getIdade() + "\r\n"  + dados.getCrime() + "\r\n" + dados.getComentario() + "\r\n");
+            gravarArq.append("- "+ dados.getId_usuario() + "\r\n"  + dados.getCrime() + "\r\n" + dados.getRua() + "\r\n" + dados.getComentario() + "\r\n");
             arq.close(); 
         } catch (IOException ex) {
             Logger.getLogger(GuardarComentario.class.getName()).log(Level.SEVERE, null, ex);   

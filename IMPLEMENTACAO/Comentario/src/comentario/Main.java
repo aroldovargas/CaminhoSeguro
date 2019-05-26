@@ -18,10 +18,9 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        RegistrarComentario comentario = new RegistrarComentario();
-        Comentario novoComent = comentario.telaComentario();
-        GuardarComentario salvar_coment = new GuardarComentario();
-        salvar_coment.salvarComentario(novoComent);
+        String id = "120";
+        TelaComentario comentario = new TelaComentario();
+        Comentario novoComent = comentario.telaComentario(id);
         
         JOptionPane.showMessageDialog(null,"Finalizando cadastro de comentário");
         
