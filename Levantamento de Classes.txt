@@ -4,10 +4,8 @@
 	- rua classificada
 
 - Resultado da busca
-	- quantidade de crimes ocorridos
-	- lista com a descrição dos crimes ocorridos(sexo, data, horario e tipo)
-	- dados do endereço pesquisada.
-	- mapa localizando a rua pesquisada.
+	- crime
+	- endereco
 
 - Usuário (OK)
 	- nome
@@ -39,17 +37,24 @@
 	- endereço
 	- tipo de crime sofrido
 
-- Assinatura
+- Assinatura (ok)
 	- formas de pagamento
 	- identificação do usuario
 	- valor
 	- status do pagamento
 
-- Comentário
+- Comentário (ok)
+	- id
 	- cliente
 	- rua
+	- tipo(o usuario pode classificar o comentário ex: reportar um crime e o tipo de crime a ser reportado)
 	- descrição feita pelo cliente
-	- tipo(o usuario pode classificar o comentário ex: reportar um crime, relatar alguma sugestão, problemas de sistema, outros)
+	
+- Feedback
+	- id
+	- cliente
+	- tipo(Classificar o tipo de comentário a ser realizado: bugs, sugestões/melhoria)
+	- comentario
 
 
 
