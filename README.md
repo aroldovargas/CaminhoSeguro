@@ -22,7 +22,7 @@ Link do PMC CANVAS: https://docs.google.com/presentation/d/10oNVltq-7zmk42OlpeAL
 ![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/TELAS/comentario_enviado.JPG?raw=true "Title")
 
 ### 5. DIAGRAMA DE CLASSES
-![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/Diagrama_Classes.jpg?raw=true "Title")
+![Alt text](https://github.com/aroldovargas/CaminhoSeguro/blob/master/Diagrama.jpg?raw=true "Title")
 
 ### DIÁRIO DE BORDO:
 
