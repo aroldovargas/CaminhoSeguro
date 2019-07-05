@@ -40,8 +40,7 @@ public class Usuario {
 
     }
 
-    Usuario() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public Usuario() {
     }
     
     public int getId_usuario() {
@@ -114,7 +113,7 @@ public class Usuario {
             
         if(!email.contains("@") || !email.contains(".")){
             throw new Exception("\ne-maill inválido\n");     
-        } else if (email.length() != 12){
+        } else if (email.length() <= 12){
             throw new Exception("\nQuantidade de caracteres inválida para e-mail\n");
         }   
             

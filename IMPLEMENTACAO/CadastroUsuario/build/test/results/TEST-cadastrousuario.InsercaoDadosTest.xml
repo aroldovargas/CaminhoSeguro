@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="DESKTOP-VGHMJSB" name="cadastrousuario.InsercaoDadosTest" skipped="0" tests="1" time="0.1" timestamp="2019-05-24T01:19:08">
+<testsuite errors="0" failures="0" hostname="DESKTOP-VGHMJSB" name="cadastrousuario.InsercaoDadosTest" skipped="0" tests="1" time="0.093" timestamp="2019-06-05T01:23:05">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="BR" />
@@ -58,7 +58,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner cadastrousuario.InsercaoDadosTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\IFES\5° periodo\POO1\ExerciciosPOO1-JogoPerguntas\CadastroUsuario\build\test\results\TEST-cadastrousuario.InsercaoDadosTest.xml crashfile=D:\IFES\5° periodo\POO1\ExerciciosPOO1-JogoPerguntas\CadastroUsuario\build\junitvmwatcher2237740654992528239.properties propsfile=D:\IFES\5° periodo\POO1\ExerciciosPOO1-JogoPerguntas\CadastroUsuario\build\junit6720160658354114586.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner cadastrousuario.InsercaoDadosTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\IFES\5° periodo\POO1\ExerciciosPOO1-JogoPerguntas\CadastroUsuario\build\test\results\TEST-cadastrousuario.InsercaoDadosTest.xml crashfile=D:\IFES\5° periodo\POO1\ExerciciosPOO1-JogoPerguntas\CadastroUsuario\build\junitvmwatcher4312250326806493069.properties propsfile=D:\IFES\5° periodo\POO1\ExerciciosPOO1-JogoPerguntas\CadastroUsuario\build\junit5797149457126821893.properties" />
     <property name="build.classes.dir" value="build/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="build.sysclasspath" value="ignore" />
@@ -101,7 +101,7 @@
     <property name="javac.debug" value="true" />
     <property name="javadoc.splitindex" value="true" />
     <property name="file.separator" value="\" />
-    <property name="javac.includesfile.binary" value="D:\IFES\5° periodo\POO1\ExerciciosPOO1-JogoPerguntas\CadastroUsuario\null197572500" />
+    <property name="javac.includesfile.binary" value="D:\IFES\5° periodo\POO1\ExerciciosPOO1-JogoPerguntas\CadastroUsuario\null1975031622" />
     <property name="libs.junit_4.maven-pom" value="" />
     <property name="mkdist.disabled" value="false" />
     <property name="javac.test.processorpath" value=":build/classes:C:\Program Files\NetBeans 8.2\platform\modules\ext\junit-4.12.jar:C:\Program Files\NetBeans 8.2\platform\modules\ext\hamcrest-core-1.3.jar" />
@@ -407,7 +407,7 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="C:\Program Files\NetBeans 8.2\enterprise\docs\javaee-doc-api.jar" />
   </properties>
-  <testcase classname="cadastrousuario.InsercaoDadosTest" name="testDadosUsuario" time="0.0" />
+  <testcase classname="cadastrousuario.InsercaoDadosTest" name="testDadosUsuario" time="0.005" />
   <system-out><![CDATA[dadosUsuario
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

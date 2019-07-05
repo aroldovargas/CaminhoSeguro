@@ -45,7 +45,7 @@ public class UsuarioTest {
     @Test
     public void testSetNome()  {
         System.out.println("setNome");
-        String nome = " ";
+        String nome = "";
         Usuario instance = new Usuario();
         try {
             instance.setNome(nome);
@@ -63,7 +63,7 @@ public class UsuarioTest {
     @Test
     public void testSetSexo() throws Exception {
         System.out.println("setSexo");
-        String sexo = "masc";
+        String sexo = "";
         Usuario instance = new Usuario();
         
         try {
@@ -80,7 +80,7 @@ public class UsuarioTest {
     @Test
     public void testSetIdade() throws Exception {
         System.out.println("setIdade");
-        String idade = "-10";
+        String idade = "";
         Usuario instance = new Usuario();
         
         try {
@@ -97,7 +97,7 @@ public class UsuarioTest {
     @Test
     public void testSetEmail() throws Exception {
         System.out.println("setEmail");
-        String email = "emanuel@hotmail";
+        String email = "";
         Usuario instance = new Usuario();
         try {
             instance.setNome(email);
@@ -131,7 +131,7 @@ public class UsuarioTest {
     @Test
     public void testSetSenha() throws Exception {
         System.out.println("setSenha");
-        String senha = "emc1";
+        String senha = "";
         Usuario instance = new Usuario();
         try {
             instance.setNome(senha);
@@ -147,7 +147,7 @@ public class UsuarioTest {
     @Test
     public void testSetCpf() throws Exception {
         System.out.println("setCpf");
-        String cpf = "161068869";
+        String cpf = "";
         Usuario instance = new Usuario();
         try {
             instance.setNome(cpf);
